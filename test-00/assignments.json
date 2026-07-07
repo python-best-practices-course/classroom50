@@ -15,7 +15,7 @@
         {
           "name": "answer.txt contains hello",
           "type": "run",
-          "run": "test -f answer.txt \u0026\u0026 grep -qi hello answer.txt",
+          "run": "test -f answer.txt && grep -qi hello answer.txt",
           "points": 1
         }
       ],
