@@ -1,4 +1,41 @@
 {
   "schema": "classroom50/scores/v1",
-  "assignments": {}
+  "assignments": {
+    "test-assignment": {
+      "type": "individual",
+      "entries": [
+        {
+          "owner": "thomasisensee",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "test-00",
+              "assignment_type": "individual",
+              "owner": "thomasisensee",
+              "submission": "submit/2026-07-07T10-52-47Z-991936b",
+              "commit": "https://github.com/python-best-practices-course/test-00-test-assignment-thomasisensee/commit/991936b9da06db35ad2a209a4aaa360b17cece00",
+              "release": "https://github.com/python-best-practices-course/test-00-test-assignment-thomasisensee/releases/tag/submit%2F2026-07-07T10-52-47Z-991936b",
+              "review": "https://github.com/python-best-practices-course/test-00-test-assignment-thomasisensee/compare/ff419035e5a2cd12eb9020f92acdd3a75700c443...991936b9da06db35ad2a209a4aaa360b17cece00",
+              "datetime": "2026-07-07T10:52:31Z",
+              "graded_at": "2026-07-07T10:53:01Z",
+              "score": 1,
+              "max-score": 1,
+              "tests": [
+                {
+                  "test-name": "answer.txt contains hello",
+                  "passed": true,
+                  "score": 1,
+                  "max-score": 1
+                }
+              ],
+              "submitted_by": {
+                "username": "thomasisensee",
+                "id": 26852629
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
