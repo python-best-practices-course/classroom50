@@ -1,4 +1,25 @@
 {
   "schema": "classroom50/assignments/v1",
-  "assignments": []
+  "assignments": [
+    {
+      "slug": "test-assignment",
+      "name": "Test assignment 0",
+      "template": {
+        "owner": "python-best-practices-course",
+        "repo": "pbp-test-assignment",
+        "branch": "main"
+      },
+      "mode": "individual",
+      "autograder": "default",
+      "tests": [
+        {
+          "name": "answer.txt contains hello",
+          "type": "run",
+          "run": "test -f answer.txt \u0026\u0026 grep -qi hello answer.txt",
+          "points": 1
+        }
+      ],
+      "feedback_pr": true
+    }
+  ]
 }
