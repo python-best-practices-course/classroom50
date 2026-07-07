@@ -1,0 +1,21 @@
+{
+  "schema": "classroom50/classroom/v1",
+  "name": "",
+  "short_name": "test-00",
+  "term": "",
+  "org": "python-best-practices-course",
+  "team": {
+    "id": 18359008,
+    "slug": "classroom50-test-00"
+  },
+  "teams": {
+    "instructor": {
+      "id": 18359011,
+      "slug": "classroom50-test-00-instructor"
+    },
+    "ta": {
+      "id": 18359014,
+      "slug": "classroom50-test-00-ta"
+    }
+  }
+}
